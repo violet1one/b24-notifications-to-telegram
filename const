@@ -1,0 +1,14 @@
+# Bitrix 24
+b24_oauth_token = 'http://%ip server%/b24/index.php'
+b24_url_task_get = 'https://%portal%.bitrix24.ru/rest/task.item.getdata.json'
+b24_url_task_view = 'https://%portal%.bitrix24.ru/company/personal/user/'
+b24_url_im = 'https://%portal%.bitrix24.ru/rest/im.notify.json'
+b24_url_user = 'https://%portal%.bitrix24.ru/company/personal/user/'
+
+# Telegram
+tlgrm_url = 'https://api.telegram.org/bot%TOKEN%/sendMessage'
+proxy = {'https': 'socks5h://%user%:%password%@%ip%:1080'}
+admin = '%id Telegram%'
+
+# Сопоставление Telegram и Bitrix24 по id
+users = {'%id Telegram%': {'responsible_id': '%id Bitrix24%'}, '%id Telegram%': {'responsible_id': '%id Bitrix24%'}}
