@@ -1,5 +1,5 @@
 # Bitrix 24
-b24_oauth_token = 'http://%ip server%/b24/index.php'
+b24_oauth_token = 'http://%ip server%/b24/b24_oauth_token.php'
 b24_url_task_get = 'https://%portal%.bitrix24.ru/rest/task.item.getdata.json'
 b24_url_task_view = 'https://%portal%.bitrix24.ru/company/personal/user/'
 b24_url_im = 'https://%portal%.bitrix24.ru/rest/im.notify.json'
