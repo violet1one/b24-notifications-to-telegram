@@ -77,4 +77,4 @@ def search_tlgrm_id(responsible_id):
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.3.34')
+    app.run(host='%IP%')
