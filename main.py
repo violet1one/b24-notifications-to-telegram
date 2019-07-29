@@ -49,7 +49,7 @@ def result():
                 requests.post(const.tlgrm_url, data=msg, proxies=const.proxy)
                 return 'OK'
             else:
-                msg = {'chat_id': const.violet,
+                msg = {'chat_id': const.admin,
                        'text': '[❕ ' + responsible_id + ']' + '(' + const.b24_url_user + responsible_id + '/' + ')' +
                                ' не сопоставлен с Telegram', 'parse_mode': 'Markdown'}
                 requests.post(const.tlgrm_url, data=msg, proxies=const.proxy)
